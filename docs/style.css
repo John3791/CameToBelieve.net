@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+html, body, div, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Style the welcome section */
+.welcome-section {
+    background-image: url('welcome-background.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.welcome-text h1 {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.arrow-icon {
+    font-size: 24px;
+}
+
+/* Add more styles as needed */
